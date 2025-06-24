@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<title>Yebuna Fire</title>
+
+<head>
+    <link rel="icon" href="http://kadz.online//Yebuna%20Fire/images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Montserrat&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    
+    <style>
+        body{
+          background-color: #1D1D1D; 
+          
+  
+          font-family: 'Montserrat', sans-serif;
+          color: white;
+        }
+        .umbrella{
+            background-color: #1D1D1D; 
+            padding-top: 35px;
+            font-size: 22px;
+            position:fixed;
+            top: -2px;
+            width:100%;
+            z-index:100;
+            text-align: right;
+            
+            border-bottom: 2px solid white;
+            padding-bottom: 15px;
+           
+        }
+        .navs{
+             margin-right: 65px;
+
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            color: #F1C40F;
+        }
+        .contacts{
+            border-left: 20px solid white;
+            padding: 15px;
+            padding-left: 25px;
+            width: 30%;
+            margin-top: 20%;
+            margin-left: 240px;
+            font-size: 15px;
+            letter-spacing: 4px;
+            
+        }
+        
+        .side{
+            position: absolute;
+            right: 20px;
+            bottom: 0px;
+            width: 500px;
+            
+        }
+        
+        .socmed1{
+            margin-top: 10px;
+            margin-left - 10px;
+            width: 50px;
+        }
+        
+        .socmed{
+            width: 50px;
+            margin-left: 12px;
+        }
+        
+        .socmed1:hover, .socmed:hover{
+            width: 60px
+        }
+
+    
+    
+    </style>
+    
+    
+        <style>
+        @media screen and (max-width: 992px) {
+            body{
+                font-size: 20px;
+            }
+            .umbrella{
+                background-color: #1D1D1D; 
+                padding-top: 35px;
+                font-size: 30px;
+                position:fixed;
+                top: -2px;
+                width:100%;
+                z-index:100;
+                text-align: right;
+                
+                border-bottom: 2px solid white;
+                padding-bottom: 15px;
+               
+            }
+            .navs{
+                 margin-right: 50px;
+            }
+            .contacts{
+                border-left: 20px solid white;
+                padding: 15px;
+                padding-left: 25px;
+                width: 50%;
+                margin-top: 20%;
+                margin-left: 100px;
+                font-size: 30px;
+                letter-spacing: 4px;
+            }
+            .socmed1{
+                margin-top: 10px;
+                margin-left - 10px;
+                width: 70px;
+            }
+        
+            .socmed{
+                width: 70px;
+                margin-left: 12px;
+            }
+            
+
+            
+            
+            
+    }
+        
+    </style>
+</head>
+
+
+<body>
+    
+<div class='umbrella'>
+    <div = class='navs'>
+        <a href='index.html'>
+            HOME 
+        </a>  &nbsp; | &nbsp;
+        
+        <a href='menu.html'>
+            MENU 
+        </a> &nbsp; | &nbsp;
+        
+        <a href='contacts.html'>
+            CONTACTS
+        </a>
+              
+    </div>
+</div>
+
+
+<img src='images/coffee beans.png' class='side'>
+
+
+
+    <div class='contacts'>
+        M:  0936 074 4369 <br>
+        M:  0995 098 6604 <br><br>
+        T :  8-741-369-0  <br><br>
+        
+        E: yebunafire@gmail.com
+        <br>
+        <br>
+        <a href='https://www.facebook.com/YebunaFire.PH' target="_blank">
+           <img src='images/facebook.png' class='socmed1'> 
+        </a>
+        <a href='https://www.instagram.com/yebuna_fire/' target="_blank">
+            <img src='images/instagram.png' class='socmed'>
+        </a>
+        <a href='https://www.tiktok.com/@yebunafire' target="_blank">
+            <img src='images/tiktok.png' class='socmed' >
+        </a>
+        
+        
+        
+    </div>    
+
+
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "111695424789743");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+
+</body>
+ 
+</html>
